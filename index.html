@@ -1,0 +1,37 @@
+<!doctype html>
+<html
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="html,js">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>map method</title>
+	<script src="script/main.js"></script>
+	
+  
+</head> 
+	<body>
+		<script>
+			const users = [
+			  {
+				first_name: 'Mike',
+				last_name: 'Sheridan'
+			  },
+			  {
+				first_name: 'Tim',
+				last_name: 'Lee'
+			  },
+			  {
+				first_name: 'John',
+				last_name: 'Carte'
+			  }
+			];
+				
+					a=users.map(function(val){
+				
+						  return val.first_name+" "+val.last_name;
+					})
+					
+					console.log(a);
+		</script>
+	</body>
+	</html>
